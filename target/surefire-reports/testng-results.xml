@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T20:28:48 WIB" name="Surefire suite" finished-at="2025-02-11T20:28:49 WIB" duration-ms="928">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.kalkulator.runners.RunnerTest@51e5fc98]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-11T20:28:48 WIB" name="Surefire test" finished-at="2025-02-11T20:28:49 WIB" duration-ms="928">
+      <class name="com.kalkulator.runners.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.kalkulator.runners.RunnerTest@51e5fc98]" started-at="2025-02-11T20:28:48 WIB" name="setUpClass" finished-at="2025-02-11T20:28:48 WIB" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50de186c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.kalkulator.runners.RunnerTest@51e5fc98]" started-at="2025-02-11T20:28:48 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-11T20:28:48 WIB" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menghitung BMI dengan data valid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Kalkulator BMI"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.kalkulator.runners.RunnerTest@51e5fc98]" started-at="2025-02-11T20:28:49 WIB" name="tearDownClass" finished-at="2025-02-11T20:28:49 WIB" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.kalkulator.runners.RunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
