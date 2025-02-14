@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Cucumber">
+    <test name="Test Application">
+        <classes>
+            <!--            <class name="com.kelas.restassured.BookTest"></class>-->
+            <!--            <class name="com.kelas.restassured.UserTest"></class>-->
+            <class name="jc.belajar.cucumber.runners.RunnerTest"></class>
+        </classes>
+    </test>
+</suite>
